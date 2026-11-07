@@ -40,3 +40,5 @@ KeySlicer bundles [FFmpeg](https://ffmpeg.org/) under the [GNU Lesser General Pu
 ## Feedback
 
 [Report a bug or suggest an improvement](https://github.com/andreyaxelrod/KeySlicer/issues). Include your macOS and KeySlicer versions and the steps to reproduce the issue.
+
+Kudos to Aleksei Bogomolov ♡
