@@ -13,6 +13,16 @@ Turn a screen recording into a set of screenshots. KeySlicer finds keyframes aut
 
 Video analysis runs locally on your Mac.
 
+## Supported video formats
+
+- MP4 (`.mp4`, `.mpg4`), QuickTime (`.mov`, `.qt`), and M4V (`.m4v`)
+- AVI (`.avi`, `.vfw`) and DV (`.dv`, `.dif`)
+- MPEG (`.mpg`, `.mpeg`, `.mpe`, `.m75`, `.m15`), MPEG-2 video (`.m2v`), and MPEG transport stream (`.ts`)
+- 3GPP (`.3gp`, `.3gpp`, `.sdv`) and 3GPP2 (`.3g2`, `.3gp2`)
+- WebM (`.webm`), currently available in the development build
+
+For formats handled by macOS, compatibility also depends on the codec inside the file.
+
 ## Install and update
 
 1. Download the `.dmg` from the [latest release](https://github.com/andreyaxelrod/KeySlicer/releases/latest).
@@ -20,6 +30,12 @@ Video analysis runs locally on your Mac.
 3. Open KeySlicer from Applications. If macOS blocks the first launch, follow the instructions in the disk image.
 
 Already installed? Open **KeySlicer → Check for Updates…**.
+
+## License
+
+KeySlicer is free to install and use. See the [KeySlicer license](LICENSE.md).
+
+KeySlicer bundles [FFmpeg](https://ffmpeg.org/) under the [GNU Lesser General Public License, version 2.1 or later](https://ffmpeg.org/legal.html). The corresponding source and build instructions are available in `FFmpeg-source.zip` on the [release page](https://github.com/andreyaxelrod/KeySlicer/releases/latest).
 
 ## Feedback
 
