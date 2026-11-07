@@ -2,7 +2,7 @@
 
 Turn a screen recording into a set of screenshots. KeySlicer finds keyframes automatically and lets you refine the selection on a timeline.
 
-**[Download KeySlicer 1.0.11 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.11/KeySlicer-1.0.11.dmg)** · macOS 27 or later · Apple Silicon and Intel
+**[Download KeySlicer 1.0.12 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.12/KeySlicer-1.0.12.dmg)** · macOS 27 or later · Apple Silicon and Intel
 
 ## What you can do
 
@@ -19,7 +19,7 @@ Video analysis runs locally on your Mac.
 - AVI (`.avi`, `.vfw`) and DV (`.dv`, `.dif`)
 - MPEG (`.mpg`, `.mpeg`, `.mpe`, `.m75`, `.m15`), MPEG-2 video (`.m2v`), and MPEG transport stream (`.ts`)
 - 3GPP (`.3gp`, `.3gpp`, `.sdv`) and 3GPP2 (`.3g2`, `.3gp2`)
-- WebM (`.webm`), currently available in the development build
+- WebM (`.webm`)
 
 For formats handled by macOS, compatibility also depends on the codec inside the file.
 
