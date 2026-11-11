@@ -2,7 +2,7 @@
 
 Turn a screen recording into a set of screenshots. KeySlicer finds keyframes automatically and lets you refine the selection on a timeline.
 
-**[Download KeySlicer 1.0.24 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.24/KeySlicer-1.0.24.dmg)** · macOS 27 or later · Apple Silicon and Intel
+**[Download KeySlicer 1.0.25 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.25/KeySlicer-1.0.25.dmg)** · macOS 15 or later · Apple Silicon and Intel
 
 ## What you can do
 
@@ -14,6 +14,8 @@ Turn a screen recording into a set of screenshots. KeySlicer finds keyframes aut
 - Choose from 21 interface languages, with right-to-left layout for Arabic, Hebrew, and Urdu.
 
 Video analysis runs locally on your Mac.
+
+Liquid Glass is available on macOS 26 and later. macOS 15 uses standard non-glass backgrounds and controls.
 
 ## Supported video formats
 
