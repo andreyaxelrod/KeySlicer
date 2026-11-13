@@ -2,7 +2,7 @@
 
 Turn a screen recording into a set of screenshots. KeySlicer finds keyframes automatically and lets you refine the selection on a timeline.
 
-**[Download KeySlicer 1.0.29 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.29/KeySlicer-1.0.29.dmg)** · macOS 15 or later · Apple Silicon and Intel
+**[Download KeySlicer 1.0.30 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.30/KeySlicer-1.0.30.dmg)** · macOS 15 or later · Apple Silicon and Intel
 
 ## What you can do
 
@@ -10,6 +10,8 @@ Turn a screen recording into a set of screenshots. KeySlicer finds keyframes aut
 - Keep recent videos in a sidebar, resume the last opened video, and reuse locally cached analysis. Analysis continues when you switch videos. Stop a video's analysis from its ellipsis menu and keep the screenshots collected so far.
 - Expand the timeline with **⌘T** to work with long recordings. Select multiple screenshots, scrub freely without changing your selection, delete them together, and undo up to 40 deletion actions.
 - Stitch scrolling footage into a long screenshot. The gallery shows the start and end times of each stitch.
+- Drag a selection rectangle across the gallery to select multiple screenshots. Export only the checked cards to ZIP, clipboard, Figma or AirDrop.
+- Right-click a screenshot to save that card or copy it to Figma. With multiple cards checked, the menu acts on the checked group.
 - Copy screenshots into Figma as an Auto Layout frame, copy them to the clipboard, or export a ZIP.
 - Choose Dark, Light, or System default appearance. Dark is the default.
 - Choose from 21 interface languages, with right-to-left layout for Arabic, Hebrew, and Urdu.
