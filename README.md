@@ -2,11 +2,11 @@
 
 Turn a screen recording into a set of screenshots. KeySlicer finds keyframes automatically and lets you refine the selection on a timeline.
 
-**[Download KeySlicer 1.0.33 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.33/KeySlicer-1.0.33.dmg)** · macOS 15 or later · Apple Silicon and Intel
+**[Download KeySlicer 1.0.34 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.34/KeySlicer-1.0.34.dmg)** · macOS 15 or later · Apple Silicon and Intel
 
 ## Updating from 1.0.29
 
-The automatic installer in 1.0.29 cannot start. Its update window now shows a download link instead. [Download 1.0.33](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.33/KeySlicer-1.0.33.dmg), quit KeySlicer, open the DMG, and drag KeySlicer to Applications, replacing the existing copy. This one-time manual update installs the corrected updater permissions. You do not need to uninstall KeySlicer first.
+The automatic installer in 1.0.29 cannot start. Its update window now shows a download link instead. [Download 1.0.34](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.34/KeySlicer-1.0.34.dmg), quit KeySlicer, open the DMG, and drag KeySlicer to Applications, replacing the existing copy. This one-time manual update installs the corrected updater permissions. You do not need to uninstall KeySlicer first.
 
 ## What you can do
 
@@ -16,6 +16,7 @@ The automatic installer in 1.0.29 cannot start. Its update window now shows a do
 - Stitch scrolling footage into a long screenshot. The gallery shows the start and end times of each stitch.
 - Select a range with Shift-click or individual screenshots with Command-click. Drag a rectangle across cards or blank gallery space, including galleries with one or two screenshots; hold Command or Shift to add to the selection. Export only the checked cards to ZIP, clipboard, Figma or AirDrop.
 - Delete selected screenshots with the blue trash button beside Export. Gallery controls stay aligned to the right.
+- In multiselect, drag across the timeline track to select keyframes without moving playback; hold Command or Shift to add to your selection. Dragging a marker to stitch shakes the markers instead: exit multiselect to stitch. Ruler, wheel and keyboard scrubbing keep your checks intact.
 - See exactly how many screenshots will be exported in the Export menu, with a localized count above Copy to Figma.
 - Right-click a screenshot to save that card or copy it to Figma. With multiple cards checked, the menu acts on the checked group.
 - Copy screenshots into Figma as an Auto Layout frame, copy them to the clipboard, or export a ZIP.
