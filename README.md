@@ -2,7 +2,11 @@
 
 Turn a screen recording into a set of screenshots. KeySlicer finds keyframes automatically and lets you refine the selection on a timeline.
 
-**[Download KeySlicer 1.0.30 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.30/KeySlicer-1.0.30.dmg)** · macOS 15 or later · Apple Silicon and Intel
+**[Download KeySlicer 1.0.31 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.31/KeySlicer-1.0.31.dmg)** · macOS 15 or later · Apple Silicon and Intel
+
+## Updating from 1.0.29
+
+The automatic installer in 1.0.29 cannot start. Its update window now shows a download link instead. [Download 1.0.31](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.31/KeySlicer-1.0.31.dmg), quit KeySlicer, open the DMG, and drag KeySlicer to Applications, replacing the existing copy. This one-time manual update installs the corrected updater permissions. You do not need to uninstall KeySlicer first.
 
 ## What you can do
 
