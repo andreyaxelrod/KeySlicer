@@ -47,4 +47,5 @@ jobs:
           APPROVAL_B64: ${{ inputs.approval }}
           APPROVAL_SIGNATURE: ${{ inputs.signature }}
           PUBLISH: 'true'
+          RELEASE_TAG_KEY: ${{ secrets.RELEASE_TAG_KEY }}
         run: python3 .github/scripts/release-gate.py

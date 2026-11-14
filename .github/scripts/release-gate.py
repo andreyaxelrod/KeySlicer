@@ -44,7 +44,15 @@ def main():
             data=(pathlib.Path(d)/a['name']).read_bytes()
             assert len(data)==expected['size'] and hashlib.sha256(data).hexdigest()==expected['sha256']
     if os.environ.get('PUBLISH') == 'true':
-        # Tag creation is allowed only to this repository's Actions integration.
+        # A public-repository-only deploy key is the sole tag-rule exception.
+        # It is available only in the dependent publication job, after verification.
+        with tempfile.TemporaryDirectory() as directory:
+            folder=pathlib.Path(directory); key=folder/'release-key'; hosts=folder/'known_hosts'
+            key.write_text(os.environ['RELEASE_TAG_KEY']+'\n');key.chmod(0o600)
+            metadata=json.loads(run('gh','api','meta'))
+            hosts.write_text(''.join('github.com '+line+'\n' for line in metadata['ssh_keys']))
+            ssh=f'ssh -i {key} -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile={hosts}'
+            run('git','-c','core.sshCommand='+ssh,'push','git@github.com:'+REPO+'.git','HEAD:refs/tags/v'+e['version'])
         run('gh','release','edit','v'+e['version'],'--draft=false','--latest','--repo',REPO)
         latest=json.loads(run('gh','api',f'repos/{REPO}/releases/latest'))
         assert latest['id']==e['draft_id'] and not latest['draft']
