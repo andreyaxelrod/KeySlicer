@@ -1,0 +1,50 @@
+name: Verified release publication
+on:
+  workflow_dispatch:
+    inputs:
+      approval:
+        description: Signed CI approval (base64 JSON)
+        required: true
+        type: string
+      signature:
+        description: Ed25519 signature
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: keyslicer-publication
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - run: python3 -m pip install cryptography==50.0.2
+      - name: Verify signed CI approval and all draft bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          APPROVAL_B64: ${{ inputs.approval }}
+          APPROVAL_SIGNATURE: ${{ inputs.signature }}
+        run: python3 .github/scripts/release-gate.py
+  publish:
+    needs: verify
+    if: github.ref == 'refs/heads/main' && needs.verify.result == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - run: python3 -m pip install cryptography==50.0.2
+      - name: Recheck frozen draft and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          APPROVAL_B64: ${{ inputs.approval }}
+          APPROVAL_SIGNATURE: ${{ inputs.signature }}
+          PUBLISH: 'true'
+        run: python3 .github/scripts/release-gate.py
