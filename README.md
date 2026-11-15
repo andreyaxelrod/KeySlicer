@@ -32,7 +32,7 @@ Version 1.0.40 improves export menus and partial exports: healthy screenshots ar
 - Adjust volume from a compact vertical control. Playback starts muted. Sidebars collapse as the window narrows.
 - Automate imports and exports with watched folders. Optional deletion of app-owned working copies is available when both input and output are configured; originals are preserved.
 - Choose Dark, Light, or System default appearance. Dark is the default.
-- Choose from 33 interface languages, including Ukrainian, with right-to-left layout for Arabic, Hebrew, and Urdu.
+- Choose from 33 interface languages with right-to-left (RTL) support.
 
 Video analysis runs locally on your Mac.
 
