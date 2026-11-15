@@ -2,17 +2,19 @@
 
 Turn a screen recording into a set of screenshots. KeySlicer finds keyframes automatically and lets you refine the selection on a timeline.
 
-**[Download KeySlicer 1.0.38 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.38/KeySlicer-1.0.38.dmg)** · macOS 15 or later · Apple Silicon and Intel
+**[Download KeySlicer 1.0.39 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.39/KeySlicer-1.0.39.dmg)** · macOS 15 or later · Apple Silicon and Intel
 
 ## If version 1.0.37 no longer opens
 
-Version 1.0.38 fixes a startup failure in 1.0.37. [Download 1.0.38](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.38/KeySlicer-1.0.38.dmg), open the DMG and replace KeySlicer in Applications. Keep your settings and video files; you do not need to uninstall or reset the app. An application that cannot launch cannot run its in-app updater.
+Version 1.0.39 fixes a startup failure in 1.0.37. [Download 1.0.39](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.39/KeySlicer-1.0.39.dmg), open the DMG and replace KeySlicer in Applications. Keep your settings and video files; you do not need to uninstall or reset the app. An application that cannot launch cannot run its in-app updater.
 
-The normal in-app update from 1.0.36 to 1.0.38 has been tested through installation and automatic relaunch. The unchanged final 1.0.38 application from the release DMG was also launch-tested separately.
+Normal in-app updates from both 1.0.36 and 1.0.38 to 1.0.39 have been tested through installation, automatic relaunch and settings preservation. The unchanged final 1.0.39 application from the release DMG was also launch-tested separately.
 
 ## Updating from 1.0.29
 
-The automatic installer in 1.0.29 cannot start. Its update window now shows a download link instead. [Download 1.0.38](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.38/KeySlicer-1.0.38.dmg), quit KeySlicer, open the DMG, and drag KeySlicer to Applications, replacing the existing copy. This one-time manual update installs the corrected updater permissions. You do not need to uninstall KeySlicer first.
+The automatic installer in 1.0.29 cannot start. Its update window now shows a download link instead. [Download 1.0.39](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.39/KeySlicer-1.0.39.dmg), quit KeySlicer, open the DMG, and drag KeySlicer to Applications, replacing the existing copy. This one-time manual update installs the corrected updater permissions. You do not need to uninstall KeySlicer first.
+
+Version 1.0.39 uses a simple downward arrow in the available-update toolbar button. Release files are verified by CI before publication.
 
 ## What you can do
 
