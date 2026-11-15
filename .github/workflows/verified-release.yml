@@ -17,6 +17,10 @@ concurrency:
   cancel-in-progress: false
 jobs:
   verify:
+    # GitHub requires contents:write to read unpublished release drafts.
+    # This job has no tag deploy key; server tag rules still block publication.
+    permissions:
+      contents: write
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
