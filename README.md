@@ -2,17 +2,19 @@
 
 Turn a screen recording into a set of screenshots. KeySlicer finds keyframes automatically and lets you refine the selection on a timeline.
 
-**[Download KeySlicer 1.0.43 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.43/KeySlicer-1.0.43.dmg)** · macOS 15 or later · Apple Silicon and Intel
+**[Download KeySlicer 1.0.44 (.dmg)](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.44/KeySlicer-1.0.44.dmg)** · macOS 15 or later · Apple Silicon and Intel
 
 ## If version 1.0.37 no longer opens
 
-Version 1.0.43 fixes a startup failure in 1.0.37. [Download 1.0.43](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.43/KeySlicer-1.0.43.dmg), open the DMG and replace KeySlicer in Applications. Keep your settings and video files; you do not need to uninstall or reset the app. An application that cannot launch cannot run its in-app updater.
+Version 1.0.43 fixes a startup failure in 1.0.37. [Download 1.0.44](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.44/KeySlicer-1.0.44.dmg), open the DMG and replace KeySlicer in Applications. Keep your settings and video files; you do not need to uninstall or reset the app. An application that cannot launch cannot run its in-app updater.
 
-The normal in-app update from 1.0.42 to 1.0.43 is verified through installation, automatic relaunch and settings preservation before publication. The unchanged final 1.0.43 application from the release DMG was also launch-tested separately.
+The in-app update from 1.0.43 to 1.0.44 was verified through installation, automatic relaunch and settings preservation. The final application from the 1.0.44 DMG was also launch-tested in the release lab.
 
 ## Updating from 1.0.29
 
-The automatic installer in 1.0.29 cannot start. Its update window now shows a download link instead. [Download 1.0.43](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.43/KeySlicer-1.0.43.dmg), quit KeySlicer, open the DMG, and drag KeySlicer to Applications, replacing the existing copy. This one-time manual update installs the corrected updater permissions. You do not need to uninstall KeySlicer first.
+The automatic installer in 1.0.29 cannot start. Its update window now shows a download link instead. [Download 1.0.44](https://github.com/andreyaxelrod/KeySlicer/releases/download/v1.0.44/KeySlicer-1.0.44.dmg), quit KeySlicer, open the DMG, and drag KeySlicer to Applications, replacing the existing copy. This one-time manual update installs the corrected updater permissions. You do not need to uninstall KeySlicer first.
+
+Version 1.0.44 adds a playback volume slider that stays open as you move between it and the speaker. Clicking the speaker mutes playback or restores your selected level. This release is signed with Developer ID and notarized by Apple.
 
 Version 1.0.43 improves concurrent video analysis reliability, close-button alignment and the timeline label at viewport edges. It also includes the recent-video trash action and consistent toolbar spacing introduced in 1.0.42. Forward manual stitching remains accelerated for supported SDR H.264 recordings. Export menus support partial exports: healthy screenshots are delivered even if another frame fails, with an inline warning and a dismissible summary. Screenshot and ZIP save dialogs start in Downloads. Release files are verified by CI before publication.
 
