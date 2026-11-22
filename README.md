@@ -1,8 +1,16 @@
 # KeySlicer
 
-KeySlicer turns screen recordings into screenshots on your Mac. It finds keyframes automatically, lets you refine them on a timeline, and stitches scrolling footage into long screenshots. Save screenshots, copy them to the clipboard, or paste them into Figma.
+KeySlicer is free to download and use on macOS. It turns existing screen recordings into screenshots, finds distinct screens automatically, and stitches scrolling footage into long screenshots. Refine the selection on a timeline, then save the screenshots, copy them to the clipboard, or paste them into Figma.
 
-[Download KeySlicer for macOS](https://github.com/andreyaxelrod/KeySlicer/releases/latest) · macOS 15 or later
+**[Download for free](https://github.com/andreyaxelrod/KeySlicer/releases/latest)** · macOS 15 or later
+
+## Extract screenshots from a screen recording and paste them into Figma
+
+For example, turn an MP4 or MOV recording of a product walkthrough into a set of screens for a design review.
+
+1. Open the recording in KeySlicer. It detects distinct screens and places them on the timeline.
+2. Review the results and check the screenshots you want to export.
+3. Choose **Export → Copy to Figma**, then paste into your Figma file. The screenshots appear together in an Auto Layout frame.
 
 ## What you can do
 
