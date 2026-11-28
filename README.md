@@ -2,7 +2,7 @@
 
 KeySlicer is free to download and use on macOS. It turns existing screen recordings into screenshots, finds distinct screens automatically, and stitches scrolling footage into long screenshots. Refine the selection on a timeline, then save the screenshots, copy them to the clipboard, or paste them into Figma.
 
-**[Download for free](https://github.com/andreyaxelrod/KeySlicer/releases/latest)** · macOS 15 or later · [Version 1.0.51](https://github.com/andreyaxelrod/KeySlicer/releases/tag/v1.0.51)
+**[Download for free](https://github.com/andreyaxelrod/KeySlicer/releases/latest)** · macOS 15 or later · [Version 1.0.52](https://github.com/andreyaxelrod/KeySlicer/releases/tag/v1.0.52)
 
 ## Extract screenshots from a screen recording and paste them into Figma
 
